@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shylyn'z Hair & Beauty</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+
+<header>
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            Shylyn'z Hair & Beauty<span>.</span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="small-title">HAIR • BEAUTY • STYLE</p>
+
+        <h1>
+            Your Beauty,<br>
+            <span>Our Passion.</span>
+        </h1>
+
+        <p>
+            Professional hair styling and beauty services
+            designed to make you look and feel amazing.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#portfolio" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Book Appointment</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about section" id="about">
+
+    <div class="about-image">
+        <img src="images/hero.jpg" alt="Beauty professional">
+    </div>
+
+    <div class="about-content">
+
+        <p class="section-label">ABOUT ME</p>
+
+        <h2>
+            Creating Beauty<br>
+            <span>With Passion</span>
+        </h2>
+
+        <p>
+            Welcome to my beauty portfolio. I specialize in
+            creating beautiful hairstyles and beauty looks
+            tailored to every client.
+        </p>
+
+        <p>
+            My goal is simple — to help every client leave
+            feeling confident, beautiful and ready to shine.
+        </p>
+
+        <a href="#contact" class="btn">Let's Work Together</a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services section" id="services">
+
+    <div class="section-heading">
+
+        <p class="section-label">WHAT I DO</p>
+
+        <h2>My Services</h2>
+
+        <p>
+            Professional beauty services made for you.
+        </p>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <div class="service-card">
+
+            <div class="service-icon">✂</div>
+
+            <h3>Hair Styling</h3>
+
+            <p>
+                Beautiful hairstyles for everyday looks,
+                events and special occasions.
+            </p>
+
+        </div>
+
+         <div class="service-grid">
+
+        <div class="service-card">
+
+            <div class="service-icon">W</div>
+
+            <h3>Wigs</h3>
+
+            <p>
+                Beautiful Classy Wigs for everyday looks,
+                events and special occasions.
+            </p>
+
+        </div>
+
+
+       
+
+        <div class="service-card">
+
+            <div class="service-icon">✦</div>
+
+            <h3>Makeup</h3>
+
+            <p>
+                Elegant beauty looks for weddings,
+                parties and special events.
+            </p>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="service-icon">♡</div>
+
+            <h3>Special Events</h3>
+
+            <p>
+                Complete beauty preparation for
+                your most important moments.
+            </p>
+
+        </div>
+         <div class="service-grid">
+
+        <div class="service-card">
+
+            <div class="service-icon">$</div>
+
+            <h3>Prices</h3>
+
+            <p>
+                .
+                Wigs P450-4200.
+                Got2 P250
+                Bold P350
+                Wig Customization P250
+                Makeup P250
+                 </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ================= PORTFOLIO ================= -->
+
+<section class="portfolio section" id="portfolio">
+
+    <div class="section-heading">
+
+        <p class="section-label">MY WORK</p>
+
+        <h2>Beauty Portfolio</h2>
+
+        <p>
+            Some of my latest work.
+        </p>
+
+    </div>
+
+
+    <!-- FILTER BUTTONS -->
+
+    <div class="filter-buttons">
+
+        <button class="filter active" data-filter="all">
+            All
+        </button>
+
+        <button class="filter" data-filter="hair">
+            Hair
+        </button>
+
+        <button class="filter" data-filter="wigs">
+            Wigs
+        </button>
+
+        <button class="filter" data-filter="makeup">
+            Makeup
+        </button>
+
+    </div>
+
+
+    <!-- GALLERY -->
+
+    <div class="gallery">
+
+        <div class="gallery-item hair">
+            <img src="images/hair1.jpg" alt="Hair styling">
+            <div class="gallery-overlay">
+                <h3>Hair Styling</h3>
+                <p>Elegant Style</p>
+            </div>
+        </div>
+
+
+        <div class="gallery-item braids">
+            <img src="images/hair2.jpg" alt="Braided hairstyle">
+            <div class="gallery-overlay">
+                <h3>Top Class Makeup</h3>
+                <p>Creative Designs</p>
+            </div>
+        </div>
+
+
+        <div class="gallery-item makeup">
+            <img src="images/hair3.jpg" alt="Makeup">
+            <div class="gallery-overlay">
+                <h3>Makeup</h3>
+                <p>Beauty Look</p>
+            </div>
+        </div>
+
+
+        <div class="gallery-item hair">
+            <img src="images/hair4.jpg" alt="Hair transformation">
+            <div class="gallery-overlay">
+                <h3>Hair Transformation</h3>
+                <p>Before & After</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="testimonials section">
+
+    <div class="section-heading">
+
+        <p class="section-label">CLIENT LOVE</p>
+
+        <h2>What Clients Say</h2>
+
+    </div>
+
+
+    <div class="testimonial-container">
+
+        <div class="testimonial">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                "I have been a loyal client of Shylynz Hair & Beauty for the past 2 years,
+                 and I can confidently say that their service has been nothing short of exceptional! 
+                 From the warm welcome to the professionalism, creativity, and attention to detail, 
+                 every experience has been worth it. ❤️
+
+ 
+."
+            </p>
+
+            <h4>— Tsholofelo Ramolapong</h4>
+
+        </div>
+
+
+        <div class="testimonial">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                "I’ve been buying hair from Mitchell from the longest , 
+                the hair has consistently been great quality  coupled with her great service . 
+                Definitely my go to at all times. ."
+            </p>
+
+            <h4>— Mayer</h4>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact section" id="contact">
+
+    <div class="contact-content">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>
+            Ready For Your<br>
+            <span>Next Look?</span>
+        </h2>
+
+        <p>
+            Contact me to book an appointment or ask
+            about my services.
+        </p>
+
+        <div class="contact-details">
+
+            <p>📱 +267 76 009 536</p>
+
+            <p>📱 +267 78 583 266</p>
+
+            <p>📍      Main mall, Gaborone-Botswana</p>
+
+            <p>📧 Msmuseke@gmail.com</p>
+
+        </div>
+
+
+        <a
+            href="https://wa.me/26776009536"
+            class="btn"
+            target="_blank"
+        >
+            Book on WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+         Hair & Beauty.<span>.</span>
+    </div>
+
+    <p>
+        © 2026 Shylyn'z Hair & Beauty.
+by Mdev. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
